@@ -12,7 +12,7 @@ mgr = owm.weather_manager()
 config_dict = get_default_config()
 config_dict['language'] = 'ru'
 owm = OWM('169eea5f4be9901c9d8adb9aee11773c', config_dict)
-client = telebot.TeleBot("1408118631:AAFfh7blS8Zos_7aZRbVSe63fwbodCoqU2M")
+client = telebot.TeleBot("Ваш API ключ")
 
 
 @client.message_handler(commands=['help'])
